@@ -4,11 +4,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BitPoker.io</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
 
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='css/site.css' rel='stylesheet' type='text/css'/>
+    <link href='css/main.css' rel='stylesheet' type='text/css'/>
+    <link href='css/soon.css' rel='stylesheet' type='text/css'/>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'/>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'/>
+
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'/>
 </head>
 <body>
     <!-- START HEADER -->
@@ -40,7 +45,7 @@
         <!-- START SLIDER -->
         <div id="slider" class="rev_slider">
             <ul>
-                <li data-transition="slideleft" data-slotamount="1" data-thumb="/Images/aceofspades.jpg"><img src="/Images/aceofspades.jpg"></li>
+                <li data-transition="slideleft" data-slotamount="1" data-thumb="/img/aceofspades.jpg"><img src="/img/aceofspades.jpg"></li>
             </ul>
         </div>
         <!-- END SLIDER -->
@@ -53,8 +58,6 @@
     <script src="Scripts/soon/plugins.js"></script>
     <script src="Scripts/soon/jquery.themepunch.revolution.min.js"></script>
     <script src="Scripts/soon/custom.js"></script>
-
-    @RenderSection("scripts", required: false)
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
