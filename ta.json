@@ -1,0 +1,17 @@
+{
+      "asset_ids": [
+        "<base 58 asset id>"
+      ],
+      "name_short": "BPK",
+      "name": "BitPoker.io Chip",
+      "contract_url": "http://www.bitpoker.io",
+      "issuer": "BitPoker.io",
+      "description": "<string>",
+      "description_mime": "<mime type>",
+      "type": "Poker Chip",
+      "divisibility": 0,
+      "link_to_website": true,
+      "icon_url": "<url>",
+      "image_url": "http://www.bitpoker.io/img/BitPokerChip.png",
+      "version": "1"
+}
